@@ -1,0 +1,562 @@
+/* start global */
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'open Sans' , sans-serif
+}
+.text-center
+{
+    text-align: center
+}
+.upper
+{
+    text-transform: uppercase
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    height: 100%;
+    display: table;
+}
+.main-color
+{
+    color: #f7600e;
+}
+.mian-background
+{
+    background-color: #f7600e;
+}
+ .overlay
+{
+    background-color: rgba(51,57,65,0.9);
+    width: 100%;
+    height: 100%;
+}
+.hidden
+{
+    display: none;
+}
+.clear
+{
+    clear: both;
+}
+/* end global */
+
+/* start header */
+.header
+{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.header .navbar
+{
+    overflow: hidden;
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header .navbar .p-name
+{
+    font-size: 20px
+}
+.header .navbar .links
+{
+    float: right;
+    font-size: 20px;
+}
+.header .navbar .links i
+{
+    margin-left: 10px;
+}
+.header .intro h1
+{
+    margin: 0;
+    font-size: 60px;
+    font-weight: 800;
+}
+.header .intro p
+{
+    margin: 10px 0 40px 0;
+    line-height: 1.9;
+    color: #e2e2e2;
+    font-size: 20px;
+}
+.header .buttons button
+{
+    background-color: transparent;
+    padding: 15px 0;
+    width: 185px; 
+    font-size: 16px;
+    border: 1px solid #666;
+    margin: 0 8px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+.header .buttons button:hover
+{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+}
+.header .arrow
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.header .arrow i
+{
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+}
+/* end header */
+
+/* Start features */
+.features
+{
+    padding: 100px 0;
+}
+.features .box
+{
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}
+.features .box:last-child
+{
+    margin-right: 0;
+}
+.features .box i
+{
+    color: #f7600e;
+    border: 1px solid #ccc;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.features .box i:hover
+{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #fff
+}
+.features .box h4
+{
+    text-transform: uppercase;
+    color: #555;
+}
+.features .box p
+{
+    line-height: 1.8;
+    color: #666;
+}
+/* Start features */
+
+/* start subscripe */
+.subscripe
+{
+    background-image: url(../img/letter.jpg);
+    background-size: cover;
+}
+.subscripe form
+{
+    padding: 100px 0;
+    width: 800px;
+    margin: auto;
+}
+.subscripe form input
+{
+    padding: 12px 20px;
+    width: 450px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.subscripe form button
+{
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #f7600e;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 15px;
+    width: 200px;
+    font-size: 15px
+}
+/* end subscripe */
+
+/* Start work */
+.work
+{
+    padding: 70px 0;
+}
+.work h2
+{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.work h2 ~ p
+{
+    line-height: 2;
+    margin: 10px 0 40px;
+    color: #6c7279
+}
+.work .items-box
+{
+    overflow: hidden;
+}
+.work .items-box .item
+{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.work .items-box .item:hover .overlay
+{
+    display: block;
+}
+.work .items-box .item .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247,96,14,0.9);
+    color: #fff;
+    display: none;
+}
+.work .items-box .item .overlay h4
+{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.work .items-box .item .overlay p
+{
+    margin-top: 20px;
+    line-height: 2;
+    margin-bottom: 0;
+    color: #eee
+}
+.work .items-box .item .overlay button
+{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.work .items-box .item .overlay button:hover
+{
+    background-color: #fff;
+    color: #f7600e;
+}
+.work .show-more
+{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    width: 200px; 
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600
+}
+.work .show-more:hover
+{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #fff
+}
+/* end work */
+
+/* start testimonials */
+.testim
+{
+    background-image: url(../img/testemonials.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.testim .client
+{
+    padding: 50px 0;
+    color: #fff;
+    font-size: 22px;
+}
+.testim .client img
+{
+    border-radius: 50%;
+}
+.testim .client p
+{
+    line-height: 2;
+    font-style: italic;
+}
+.testim .fa-chevron-right,
+.testim .fa-chevron-left
+{
+    position: absolute;
+    top: 50%;
+    color: #888;
+    font-size: 45px;
+    cursor: pointer;
+}
+.testim .fa-chevron-right:hover,
+.testim .fa-chevron-left:hover
+{
+    color: #f7600e;
+}
+.testim .fa-chevron-right
+{
+    right: 0;
+}
+.testim .fa-chevron-left
+{
+    left: 0;
+}
+/* start testimonials */
+
+/* start our team */
+.team
+{
+    padding: 70px 0;
+}
+.team h2
+{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.team h2 ~ p
+{
+    line-height: 2;
+    margin: 10px 0 40px;
+    color: #6c7279
+}
+.team .the-team .person
+{
+    float: left;
+    width: 20.5%;
+    margin-right: 5%;
+    filter: gray;
+    filter: grayscale(1);
+    height: 450px;
+}
+.team .the-team .person:hover
+{
+    filter: grayscale(0);
+}
+.team .the-team .person:last-of-type
+{
+    margin-right: 0;
+}
+.team .the-team .person img
+{
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 30px 15px 0 15px;
+}
+.team .the-team .person:hover img
+{
+    border-bottom: 5px solid #f7600e;
+    padding: 0;
+}
+.team .the-team .person h3
+{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #3b434c;
+}
+.team .the-team .person .social
+{
+    margin-top: 15px;
+}
+.team .the-team .person .social i
+{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.team .the-team .person .social i.fa-facebook
+{
+    background-color: #205b9f;
+}
+.team .the-team .person .social i.fa-twitter
+{
+    background-color: #00ace3;
+}
+.team .the-team .person .social i.fa-google-plus
+{
+    background-color: #ff3921;
+}
+.team .the-team .person p
+{
+    font-size: 12px;
+    line-height: 1.8;
+    margin-top: 18px;
+    color: #666;
+    font-weight: bold;
+}
+/* end our team */
+
+/* start contact */
+.contact
+{
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    background-position:center
+}
+.contact .overlay
+{
+    color: #fff;
+    padding: 50px 0 100px 0;
+}
+.contact h2
+{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.contact h2 ~ p
+{
+    line-height: 2;
+    margin: 10px 0 40px;
+    color: #ddd;
+}
+.contact form
+{
+    width: 750px;
+    margin: auto;
+}
+.contact form input,
+{
+    border-radius: 10px;
+}
+.contact form input[type="text"],
+.contact form input[type="email"]
+{
+    width: 48%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none
+}
+.contact form input[type="text"]
+{
+    float: right;
+}
+.contact form input[type="email"]
+{
+    float: left;
+}
+
+.contact form textarea
+{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 200px;
+    outline: none;
+    margin-bottom: 25px
+}
+.contact form button
+{
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #f7600e;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 15px;
+    width: 200px;
+    font-size: 15px;
+    float: left;
+    cursor: pointer;
+}
+.contact form .icons
+{
+    float: right;
+}
+.contact form .icons i
+{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.contact form .icons i.fa-facebook
+{
+    background-color: #205b9f;
+}
+.contact form .icons i.fa-twitter
+{
+    background-color: #00ace3;
+}
+.contact form .icons i.fa-google-plus
+{
+    background-color: #ff3921;
+}
+/* end contact */
+
+/* start footer */
+.footer .overlay
+{
+    padding: 30px 0;
+    color: #ddd;
+}
+.footer .overlay .copy
+{
+    float: left;
+}
+.footer .overlay .design
+{
+    float: right;
+}
+.footer .overlay .design span
+{
+    font-weight: bold;
+}
+/* start footer */
